@@ -44,9 +44,9 @@ namespace CodeChallenge
             ""
         };
 
-            foreach (string value in array)
+            foreach (string thing in array)
             {
-                Console.WriteLine("{0} = {1}", value, IsPalindrome(value));
+                Console.WriteLine("{0} = {1}", thing, IsPalindrome(thing));
             }
         }
     }
